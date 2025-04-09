@@ -103,7 +103,39 @@
   <section>
     <h1>Tablas en HTML</h1>
 
-    
+    <table> <!-- Etiqueta de tabla-->
+      <colgroup>
+        <col span="4" style="background-color: rgb(143, 175, 203);">
+      </colgroup>
+      <tr> <!-- Etiqueta de fila (row)-->
+        <th>Alumnos</th> <!-- Etiqueta de table header (encabezado de tabla)-->
+        <th colspan="2">Nombre y Apellido</th> <!-- Colspan nos ayudar a extender horizontalmente-->
+        <th>Notas</th>
+      </tr>
+      <tr>
+        <td>1</td> <!-- Etiqueta de table data (informacion de tabla)-->
+        <td>Pedro</td>
+        <td>Perez</td>
+        <td>8</td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>Rodrigo</td>
+        <td>Gonzalez</td>
+        <td>9</td>
+      </tr>
+      <tr>
+        <td>3</td>
+        <td>Humberto</td>
+        <td rowspan="2">Velez</td> <!-- Con rowspan podemos hacer una extension vertical-->
+        <td>7</td>
+      </tr>
+      <tr>
+        <td>4</td>
+        <td>Cecilia</td>
+        <td>10</td>
+      </tr>
+    </table>
   
   </section>
 </body>
