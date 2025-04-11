@@ -100,6 +100,7 @@
      <img src="https://i.blogs.es/6f44dd/google-2015-1/1366_2000.jpg" alt="Imagen de GOOGLE">
      <img src="carpeta-interna/imagenapple.png" alt="Imagen de APPLE" width="300px" height="160px">
   </section><br>
+  
   <section><b>TABLAS EN HTML</b>
 
     <table> <!-- Etiqueta de tabla-->
@@ -137,6 +138,7 @@
     </table>
   
   </section><br>
+
   <section><b>LISTAS EN HTML</b>
 
     <h2>Listas desordenadas</h2>
@@ -230,7 +232,8 @@
     <var>   
     -->
   </section><br>
-  <section>DIV Y SPAN</section><br>
+
+  <section><b>DIV Y SPAN</b>
 
   <div style="background-color: blue; color: white;">
     <h2>Titulo de un tema</h2>
@@ -242,6 +245,102 @@
     <h2>Titulo de un tema</h2>
     <p>Parrafo sobre ese tema</p>
   </div>
+  </section><br>
 
+  <section><b>FORMULARIOS</b>
+
+    <h1>INPUTS PRINCIPALES</h1><br>
+    <form method="post">
+    
+    <!-- INPUT TYPE TEXT -->
+    <h4>Datos personales</h4><br>
+    <label for="Nombre">Nombre</label>
+    <input type="text" name="Nombre" id="Nombre">
+    <label for="Apellido">Apellido</label>
+    <input type="text" name="Apellido" id="Apellido">
+    <br>
+
+    <!-- INPUT TYPE RADIO -->
+    <h4>Situacion Laboral</h4><br>
+
+    <label for="Empleado">Empleado</label>
+    <input type="radio" name="Situacion Laboral" id="Empleado" value="Empleado">
+    <label for="Desempleado">Desempleado</label>
+    <input type="radio" name="Situacion Laboral" id="Desempleado" value="Desempleado">
+    <label for="En busqueda Laboral">En busqueda Laboral</label>
+    <input type="radio" name="Situacion Laboral" id="En busqueda Laboral" value="En busqueda laboral">
+    <br>
+
+    <!-- INPUT TYPT CHECKBOX -->
+    <h4>Tecnologias</h4><br>
+
+    <label for="html">HTML</label>
+    <input type="checkbox" name="Tecnologias" id="html" value="1">
+    <label for="css">CCS</label>
+    <input type="checkbox" name="Tecnologias" id="css" value="2">
+    <label for="javascript">JAVASCRIPT</label>
+    <input type="checkbox" name="Tecnologias" id="javascript" value="3">
+    <label for="react">REACT</label>
+    <input type="checkbox" name="Tecnologias" id="react" value="4">
+    <br>
+
+    <!-- INPUT TYPE SUBMMIT -->
+     <h4>Enviar</h4><br>
+     <input type="submit" value="Enviar">
+     <button type="submit"></button>
+     <br>
+
+     <!-- TEXT AREA -->
+     <h4>Area de texto</h4><br>
+     <label for="Motivo">Motivo</label><br>
+     <textarea name="Motivo" id="Motivo" rows="10" cols="30"></textarea>
+     <br>
+
+     <!-- LOGIN: EMAIL PASSWORD Y RESET -->
+     <h4>Login</h4><br>
+     <label for="email">Email</label>
+     <input type="email" name="email" id="email">
+     <br>
+     
+     <label for="Password">Password</label>
+     <input type="password" name="Password" id="Password">
+     <br>
+
+     <input type="submit" value="Entrar">
+     <input type="reset" value="Limpiar">
+     <br>
+
+    </form>
+
+    <h1>INPUTS VARIOS</h1><br>
+    <form method="get">
+      
+      <!-- INPUT TYPE COLOR - FECHA - TIEMPO - NUMERO -->
+      <label for="color">Selecciona un color</label>
+      <input type="color" name="color" id="color">
+      <br>
+      <label for="fecha">Selecciona una fecha</label>
+      <input type="date" name="fecha" id="fecha">
+      <br>
+      <label for="hora">Selecciona una hora</label>
+      <input type="time" name="hora" id="hora">
+      <br>      
+      <label for="numero">Selecciona un numero</label>
+      <input type="number" name="numero" id="numero" min="1" max="5">
+      <br>      
+      <label for="rango">Selecciona un rango</label>
+      <input type="range" name="rango" id="rango">
+      <br>      
+      <label for="archivo">Selecciona un archivo</label>
+      <input type="file" name="archivo" id="archivo">
+      <br>
+
+    </form>
+
+  </section><br>
+
+
+
+  
 </body>
 </html>
