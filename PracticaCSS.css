@@ -1,14 +1,10 @@
 /* PRACTICA CSS TEXTO UNION CON HTML */
-h1{
-    color: lightblue;
+h2{
+    text-align: center;
 }
 
 div{
-    background-color: black;
     width: 500px;
-    height: 50px;
-}
-
-h2{
-    color: #ffffff
+    height: 200px;
+    border: 2px solid black;
 }
