@@ -4,8 +4,8 @@ h2{
 }
 
 div{
-    width: 90px;
-    height: 50px;
+    width: 500px;
+    height: auto;
     border: 2px solid black;
     padding: 20px;
     margin: 20px;
@@ -37,4 +37,10 @@ div{
 .none{
     text-transform: none;
 }
-
+p{
+    text-indent: 50px;
+    letter-spacing: 1px;
+    line-height: 1.5;
+    word-spacing: 3px;
+    /* white-space: nowrap; */
+}
