@@ -1,7 +1,4 @@
 /* PRACTICA CSS TEXTO UNION CON HTML */
-h2{
-    text-align: center;
-}
 
 div{
     width: 500px;
@@ -46,4 +43,19 @@ div{
 }
 .shadow{
     text-shadow: 5px 5px 3px rgb(185, 185, 185);
+}
+.serif{
+    font-family: serif;
+}
+.sans-serif{
+    font-family: sans-serif;
+}
+.monospace{
+    font-family: monospace;
+}
+.cursive{
+    font-family: cursive;
+}
+.fantasy{
+    font-family: fantasy;
 }
