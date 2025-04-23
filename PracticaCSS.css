@@ -62,3 +62,25 @@ div{
 h3{
     font: italic small-caps 3vw Arial, sans-serif;
 }
+
+
+.fuente-terceros1{
+    font-family: "Playwrite RO", cursive;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+}
+
+.fuente-terceros2{
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;    
+}
+
+.fuente-terceros3{
+    font-family: "Bungee Spice", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.fuente-terceros4
